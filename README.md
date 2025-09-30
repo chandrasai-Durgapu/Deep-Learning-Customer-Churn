@@ -141,3 +141,5 @@ git merge exp-naval-weep
 git add README.md
 git commit -m "Update README before merging experiment"
 git merge exp-naval-weep
+git push origin main
+git branch -d exp-naval-weep
