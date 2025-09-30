@@ -127,3 +127,9 @@ dvc exp push origin
 
 
 
+git checkout main
+git merge exp-naval-weep
+
+git add README.md
+git commit -m "Update README before merging experiment"
+git merge exp-naval-weep
