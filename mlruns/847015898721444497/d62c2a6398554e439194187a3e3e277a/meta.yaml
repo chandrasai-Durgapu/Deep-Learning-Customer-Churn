@@ -1,0 +1,14 @@
+artifact_uri: file:///G:/DataScienceProjects/Deep-Learning-Projects/Deep-Learning-Customer-Churn/mlruns/847015898721444497/d62c2a6398554e439194187a3e3e277a/artifacts
+end_time: 1759219865703
+entry_point_name: ''
+experiment_id: '847015898721444497'
+lifecycle_stage: active
+run_id: d62c2a6398554e439194187a3e3e277a
+run_name: wise-hog-208
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759219768115
+status: 3
+tags: []
+user_id: Chandra

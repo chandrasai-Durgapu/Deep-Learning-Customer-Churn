@@ -1,0 +1,10 @@
+artifact_location: file:///G:/DataScienceProjects/Deep-Learning-Projects/Deep-Learning-Customer-Churn/mlruns/847015898721444497/models/m-0af0ab3b299040deaaef18e573d8347c/artifacts
+creation_timestamp: 1759220255950
+experiment_id: '847015898721444497'
+last_updated_timestamp: 1759220310324
+model_id: m-0af0ab3b299040deaaef18e573d8347c
+model_type: null
+name: model
+source_run_id: 86f6f76162d945be8702a0a6d0904322
+status: 2
+status_message: null

@@ -1,0 +1,18 @@
+fastapi
+uvicorn[standard]
+tensorflow
+scikit-learn
+pandas
+numpy
+joblib
+pyyaml>=6.0
+
+dvc[all]
+
+# DVC and DagsHub support
+dvc
+dvc[http]               # for DagsHub storage access
+dagshub                 # for experiment tracking + integration with DagsHub
+
+# MLflow (for local experiment tracking, optional)
+mlflow

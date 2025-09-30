@@ -1,0 +1,9 @@
+[core]
+    remote = origin_dvc
+['remote "myremote"']
+    url = G:\dvc_remote_storage
+['remote "origin_dvc"']
+    url = https://dagshub.com/chandrasekharcse522/Deep-Learning-Customer-Churn.dvc
+    auth = basic
+    user = chandrasekharcse522
+    password = f92a8aa32bb198409559b5038ccfc6e6aee9d733

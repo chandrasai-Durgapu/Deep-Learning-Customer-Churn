@@ -1,0 +1,27 @@
+artifact_path: file:///G:/DataScienceProjects/Deep-Learning-Projects/Deep-Learning-Customer-Churn/mlruns/847015898721444497/models/m-0af0ab3b299040deaaef18e573d8347c/artifacts
+flavors:
+  keras:
+    data: data
+    keras_backend: tensorflow
+    keras_version: 3.11.3
+    save_exported_model: false
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.keras
+    python_version: 3.10.18
+is_signature_from_type_hint: false
+mlflow_version: 3.4.0
+model_id: m-0af0ab3b299040deaaef18e573d8347c
+model_size_bytes: 40411
+model_uuid: m-0af0ab3b299040deaaef18e573d8347c
+prompts: null
+run_id: 86f6f76162d945be8702a0a6d0904322
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1, 21]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1,
+    1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-09-30 08:18:03.897021'

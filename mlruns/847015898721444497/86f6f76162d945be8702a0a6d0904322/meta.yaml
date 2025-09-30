@@ -1,0 +1,14 @@
+artifact_uri: file:///G:/DataScienceProjects/Deep-Learning-Projects/Deep-Learning-Customer-Churn/mlruns/847015898721444497/86f6f76162d945be8702a0a6d0904322/artifacts
+end_time: 1759220311340
+entry_point_name: ''
+experiment_id: '847015898721444497'
+lifecycle_stage: active
+run_id: 86f6f76162d945be8702a0a6d0904322
+run_name: aged-fly-140
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759220255780
+status: 3
+tags: []
+user_id: Chandra

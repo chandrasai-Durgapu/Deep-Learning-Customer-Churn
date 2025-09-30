@@ -1,0 +1,22 @@
+data:
+  raw_path: "data/Customer-Churn-Dataset1.csv"
+  processed_train: "data/processed/train.npz"
+  processed_test: "data/processed/test.npz"
+
+train:
+  test_size: 0.2
+  random_state: 42
+  batch_size: 16
+  epochs: 20
+  patience: 5
+
+model:
+  hidden_units:
+    - 32
+    - 16
+  activation: "relu"
+  learning_rate: 0.001
+  dropout_rate: 0.0   # optional for dropout
+
+evaluation:
+  threshold: 0.5
