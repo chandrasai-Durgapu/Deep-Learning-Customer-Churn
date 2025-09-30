@@ -143,3 +143,8 @@ git commit -m "Update README before merging experiment"
 git merge exp-naval-weep
 git push origin main
 git branch -d exp-naval-weep
+
+
+```bash
+uvicorn server_api.app:app --reload
+```
