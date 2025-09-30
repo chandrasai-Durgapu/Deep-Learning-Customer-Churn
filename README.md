@@ -123,9 +123,17 @@ generate github token and generate dagshub token
 git credential-cache exit
 git config --global credential.helper store
 dvc exp push origin
+
+
+
+
 ```
 
+dvc exp branch naval-weep exp-naval-weep
+git checkout exp-naval-weep
 
+git add README.md
+git commit -m "Update README.md in exp-naval-weep experiment"
 
 git checkout main
 git merge exp-naval-weep
