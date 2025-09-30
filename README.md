@@ -108,9 +108,20 @@ git push
 git add .dvc/config README.md data/.gitignore requirements.txt schema.yaml params.yaml
 git add .
 git status
+git add README.md
+git commit -m "Your commit message describing all these changes"
+git push
 
 dvc exp run
 dvc exp show
+dvc exp push origin
+git remote -v
+dvc exp push origin
+```
+generate github token and generate dagshub token
+```bash
+git credential-cache exit
+git config --global credential.helper store
 dvc exp push origin
 ```
 
