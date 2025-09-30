@@ -1,0 +1,29 @@
+stages:
+  preprocess:
+    cmd: python src/data_preprocessing.py
+    deps:
+      - data/Customer-Churn-Dataset1.csv
+      - src/data_preprocessing.py
+    outs:
+      - data/processed/train.csv
+      - data/processed/test.csv
+      - models/scaler.pkl
+      - models/label_encoders.pkl
+
+  validate:
+    cmd: python src/data_validation.py
+    deps:
+      - data/processed/train.csv
+      - src/data_validation.py
+
+  train:
+    cmd: python src/model_trainer.py
+    deps:
+      - data/processed/train.csv
+      - data/processed/test.csv
+      - src/model_trainer.py
+      - src/model_builder.py
+    outs:
+      - saved_models/customer_churn_model.h5
+    metrics:
+      - metrics.json
